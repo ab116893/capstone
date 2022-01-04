@@ -1,0 +1,15 @@
+.form {
+  min-width: auto;
+  max-width: auto;
+  width: 100%;
+}
+
+.example-full-width {
+  width: 200%;
+}
+
+.mat-form-field {
+  left: 130%;
+  font-size: medium;
+}
+/*# sourceMappingURL=autocomplete.component.css.map */

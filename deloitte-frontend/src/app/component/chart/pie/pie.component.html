@@ -1,0 +1,56 @@
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="card" style="width: auto;height:auto;">
+        <div class="card-body">
+          <div class='chart'>
+            <p>Stock Analyst Buying Recommendation</p>
+            <div style="display: block">
+              <canvas baseChart [data]="pieChartData" [labels]="pieChartLabels" [chartType]="pieChartType">
+              </canvas>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="card" style="width: auto;height:auto;">
+        <div class="card-body">
+          <div class='chart'>
+            <p>Stock Analyst Outperform Recommendation</p>
+            <div style="display: block">
+              <canvas baseChart [data]="pieChartDataOutperform" [labels]="pieChartLabelsOutperform" [chartType]="pieChartTypeOutperform">
+              </canvas>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="card" style="width: auto;height:auto;">
+        <div class="card-body">
+          <div class='chart'>
+            <p>Stock Analyst Hold Recommendation</p>
+            <div style="display: block">
+              <canvas baseChart [data]="pieChartDataHold" [labels]="pieChartLabelsHold" [chartType]="pieChartTypeHold">
+              </canvas>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="card" style="width: auto;height:auto;">
+        <div class="card-body">
+          <div class='chart'>
+            <p>Stock Analyst Sale Recommendation</p>
+            <div style="display: block">
+              <canvas baseChart [data]="pieChartDataSale" [labels]="pieChartLabelsSale" [chartType]="pieChartTypeSale">
+              </canvas>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

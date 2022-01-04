@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,iBAAiB,CAAC;EAChB,KAAK,EAAE,IAAI;CACZ",
+    "sources": [
+        "management-table.component.scss"
+    ],
+    "names": [],
+    "file": "management-table.component.css"
+}
